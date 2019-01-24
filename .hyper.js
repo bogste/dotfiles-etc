@@ -1,6 +1,13 @@
+// Description:
+//
+// Hyper configuration file.
+//
 // Future versions of Hyper may add additional config options,
 // which will not automatically be merged into this file.
 // See https://hyper.is#cfg for all currently supported options.
+//
+// Version 1.0.1 / Date 2019-01-24
+// 
 
 module.exports = {
   config: {
@@ -137,7 +144,9 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [],
+  plugins: [
+    'hyper-pane'
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
