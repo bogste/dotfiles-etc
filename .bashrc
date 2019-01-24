@@ -2,7 +2,7 @@
 #
 # Goodies file for non-login shells.
 #
-# Version 1.0.1 / Date 2019-01-24
+# Version 1.0.4 / Date 2019-01-24
 #
 
 # Load my aliases
