@@ -19,6 +19,8 @@ fi
 if [ -f ~/.jabba/jabba.sh]; then
   [ -s "~/.jabba/jabba.sh" ] && source "~/.jabba/jabba.sh"
 
-  # Below needs ~/.jabbarc with some Java version (e.g. 1.8) downloaded & specified.
-  export JAVA_HOME="$(jabba which --home)"
+  if [ -f ~/.jabbarc]; then
+    # Below needs ~/.jabbarc with some Java version (e.g. 1.8) downloaded & specified.
+    export JAVA_HOME="$(jabba which --home)"
+  fi
 fi
