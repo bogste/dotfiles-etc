@@ -6,18 +6,18 @@
 #
 
 # Load my aliases
-if [ -f "~/.bash_aliases" ]; then
+if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
 fi
 
 # Load my functions
-if [ -f "~/.bash_functions" ]; then
+if [ -f ~/.bash_functions ]; then
   . ~/.bash_functions
 fi
 
 # Miscellaneous
-if [ -f "~/.jabba/jabba.sh" ]; then
-  [ -s "~/.jabba/jabba.sh" ] && source "~/.jabba/jabba.sh"
+if [ -f ~/.jabba/jabba.sh ]; then
+  [ -s ~/.jabba/jabba.sh ] && source ~/.jabba/jabba.sh
 
   if [ -f ~/.jabbarc ]; then
     # Below needs ~/.jabbarc with some Java version (e.g. 1.8) downloaded & specified.
